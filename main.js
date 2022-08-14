@@ -65,6 +65,7 @@ class object {
     this.y = clamp(this.y, 0, canvas.height)
   }
 }
+
 let w = canvas.width
 let h = canvas.height
 
@@ -91,4 +92,4 @@ setInterval(() => {
   walkerC.walk()
   walkerC.update()
   walkerC.limit()
-}, 17)
+})
